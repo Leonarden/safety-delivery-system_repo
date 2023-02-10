@@ -1,0 +1,37 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'SafetyKitItemType', 'x':14, 'y':262, 'width':180, 'height':149, 'attrs': 'description|id|nInstances|name', 'meths': '__del__|__init__'}
+{'type':'umlshape', 'id':'SafetyKitItem', 'x':131, 'y':12, 'width':140, 'height':164, 'attrs': 'description|id|nInstances|name|safetyKitItemType', 'meths': '__del__|__init__'}
+{'type':'umlshape', 'id':'Medicine', 'x':10, 'y':50, 'width':90, 'height':134, 'attrs': 'composition|nInstances|warning', 'meths': '__del__|__init__'}
+{'type':'umlshape', 'id':'MedicalHardware', 'x':274, 'y':229, 'width':160, 'height':134, 'attrs': 'characteristics|nInstances|warning', 'meths': '__del__|__init__'}
+{'type':'umlshape', 'id':'Food', 'x':130, 'y':687, 'width':157, 'height':134, 'attrs': 'nInstances|nutritionalProperties|warning', 'meths': '__del__|__init__'}
+{'type':'umlshape', 'id':'SafetyKitItemProperty', 'x':432, 'y':13, 'width':220, 'height':164, 'attrs': 'description|id|language|nInstances|name', 'meths': '__del__|__init__'}
+{'type':'umlshape', 'id':'IllnessCategory', 'x':262, 'y':424, 'width':160, 'height':164, 'attrs': 'description|id|language|nInstances|name', 'meths': '__del__|__init__'}
+{'type':'umlshape', 'id':'IllnessProperty', 'x':52, 'y':424, 'width':160, 'height':179, 'attrs': 'description|id|illnessCategory|language|nInstances|name', 'meths': '__del__|__init__'}
+{'type':'umlshape', 'id':'SafetyKitItemInstruction', 'x':452, 'y':206, 'width':250, 'height':254, 'attrs': 'description|id|illnesses|incompatibilities|language|maxdosage|mindosage|nInstances|name|posology|references', 'meths': '__del__|__init__'}
+{'type':'umlshape', 'id':'SafetyKitInstructions', 'x':716, 'y':757, 'width':220, 'height':179, 'attrs': 'description|id|language|nInstances|name|safetyKitItemInstructions', 'meths': '__del__|__init__'}
+{'type':'umlshape', 'id':'SafetyKitTypeSpecification', 'x':1065, 'y':21, 'width':270, 'height':194, 'attrs': 'avgCost|avgWeight|description|id|itemTypesPercentages|nInstances|name', 'meths': '__del__|__init__'}
+{'type':'umlshape', 'id':'SafetyKitType', 'x':807, 'y':51, 'width':192, 'height':164, 'attrs': 'description|id|nInstances|name|safetyKitTypeSpecification', 'meths': '__del__|__init__'}
+{'type':'umlshape', 'id':'SafetyKit', 'x':509, 'y':528, 'width':157, 'height':194, 'attrs': 'description|id|nInstances|name|safetyKitInstructions|safetyKitItems|safetyKitType', 'meths': '__del__|__init__'}
+{'type':'umlshape', 'id':'Pack', 'x':947, 'y':267, 'width':87, 'height':179, 'attrs': 'description|id|nInstances|name|volume|weight', 'meths': '__del__|__init__'}
+{'type':'umlshape', 'id':'SafetyKitPackCategory', 'x':718, 'y':524, 'width':220, 'height':164, 'attrs': 'characteristics|id|nInstances|name|packSubcategory', 'meths': '__del__|__init__'}
+{'type':'umlshape', 'id':'SafetyKitPack', 'x':994, 'y':561, 'width':157, 'height':134, 'attrs': 'nInstances|safetyKitPackCategory|safetyKits', 'meths': '__del__|__init__'}
+{'type':'umlshape', 'id':'Inventory', 'x':1487, 'y':312, 'width':115, 'height':194, 'attrs': 'characteristics|description|hangar|id|nInstances|name|type', 'meths': '__del__|__init__'}
+{'type':'umlshape', 'id':'Hangar', 'x':1181, 'y':309, 'width':115, 'height':269, 'attrs': 'characteristics|city|description|id|inventory|latitude|longitude|nInstances|name|priority|safetyKitPacks|totalCapacity', 'meths': '__del__|__init__'}
+{'type':'edge', 'id':'Food_to_SafetyKitItem', 'source':'Food', 'target':'SafetyKitItem', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'SafetyKitPack_to_Pack', 'source':'SafetyKitPack', 'target':'Pack', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Medicine_to_SafetyKitItem', 'source':'Medicine', 'target':'SafetyKitItem', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'MedicalHardware_to_SafetyKitItem', 'source':'MedicalHardware', 'target':'SafetyKitItem', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'SafetyKitPackCategory_to_SafetyKitPack', 'source':'SafetyKitPackCategory', 'target':'SafetyKitPack', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'SafetyKitTypeSpecification_to_SafetyKitType', 'source':'SafetyKitTypeSpecification', 'target':'SafetyKitType', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'SafetyKitPackCategory_to_SafetyKitPackCategory', 'source':'SafetyKitPackCategory', 'target':'SafetyKitPackCategory', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'SafetyKitInstructions_to_SafetyKit', 'source':'SafetyKitInstructions', 'target':'SafetyKit', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'SafetyKitItemType_to_Food', 'source':'SafetyKitItemType', 'target':'Food', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'IllnessCategory_to_IllnessProperty', 'source':'IllnessCategory', 'target':'IllnessProperty', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'SafetyKitType_to_SafetyKit', 'source':'SafetyKitType', 'target':'SafetyKit', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'SafetyKitItemType_to_MedicalHardware', 'source':'SafetyKitItemType', 'target':'MedicalHardware', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'SafetyKitItemProperty_to_SafetyKitItemInstruction', 'source':'SafetyKitItemProperty', 'target':'SafetyKitItemInstruction', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'Inventory_to_Hangar', 'source':'Inventory', 'target':'Hangar', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'Hangar_to_Inventory', 'source':'Hangar', 'target':'Inventory', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'SafetyKitItemType_to_Medicine', 'source':'SafetyKitItemType', 'target':'Medicine', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'SafetyKitItemType_to_SafetyKitItem', 'source':'SafetyKitItemType', 'target':'SafetyKitItem', 'uml_edge_type': 'composition'}

@@ -1,0 +1,324 @@
+<?xml version="1.0"?>
+<!DOCTYPE graph PUBLIC "-//John Punin//DTD graph description//EN" "http://www.cs.rpi.edu/~puninj/XGMML/xgmml.dtd">
+
+    <graph directed="1" graphic="1" Layout="points">
+
+        <node id="SafetyKitItemType" label="SafetyKitItemType&#xa;⎯⎯⎯&#xa;description&#xa;id&#xa;nInstances&#xa;name&#xa;⎯⎯⎯&#xa;__del__&#xa;__init__" weight="0">
+            <graphics type="ROUND_RECTANGLE" x="14.0" y="262.0" h="185" w="190" fill="#91CFEB" >
+                <att name="NODE_LABEL_POSITION" value="C,C,l,0.00,0.00" type="string" cy:type="String"/>
+                <att name="NODE_LABEL_FONT_SIZE" value="10" type="string" cy:type="String"/>
+            </graphics>
+            <att name="attrs" value="description,id,nInstances,name"/>
+            <att name="meths" value="__del__,__init__"/>
+
+            <att name="width" value="180"/>
+            <att name="height" value="149"/>
+        </node>
+        <node id="SafetyKitItem" label="SafetyKitItem&#xa;⎯⎯⎯&#xa;description&#xa;id&#xa;nInstances&#xa;name&#xa;safetyKitItemType&#xa;⎯⎯⎯&#xa;__del__&#xa;__init__" weight="0">
+            <graphics type="ROUND_RECTANGLE" x="131.0" y="12.0" h="200" w="150" fill="#91CFEB" >
+                <att name="NODE_LABEL_POSITION" value="C,C,l,0.00,0.00" type="string" cy:type="String"/>
+                <att name="NODE_LABEL_FONT_SIZE" value="10" type="string" cy:type="String"/>
+            </graphics>
+            <att name="attrs" value="description,id,nInstances,name,safetyKitItemType"/>
+            <att name="meths" value="__del__,__init__"/>
+
+            <att name="width" value="140"/>
+            <att name="height" value="164"/>
+        </node>
+        <node id="Medicine" label="Medicine&#xa;⎯⎯⎯&#xa;composition&#xa;nInstances&#xa;warning&#xa;⎯⎯⎯&#xa;__del__&#xa;__init__" weight="0">
+            <graphics type="ROUND_RECTANGLE" x="10" y="50" h="170" w="100" fill="#91CFEB" >
+                <att name="NODE_LABEL_POSITION" value="C,C,l,0.00,0.00" type="string" cy:type="String"/>
+                <att name="NODE_LABEL_FONT_SIZE" value="10" type="string" cy:type="String"/>
+            </graphics>
+            <att name="attrs" value="composition,nInstances,warning"/>
+            <att name="meths" value="__del__,__init__"/>
+
+            <att name="width" value="90"/>
+            <att name="height" value="134"/>
+        </node>
+        <node id="MedicalHardware" label="MedicalHardware&#xa;⎯⎯⎯&#xa;characteristics&#xa;nInstances&#xa;warning&#xa;⎯⎯⎯&#xa;__del__&#xa;__init__" weight="0">
+            <graphics type="ROUND_RECTANGLE" x="274.0" y="229.0" h="170" w="170" fill="#91CFEB" >
+                <att name="NODE_LABEL_POSITION" value="C,C,l,0.00,0.00" type="string" cy:type="String"/>
+                <att name="NODE_LABEL_FONT_SIZE" value="10" type="string" cy:type="String"/>
+            </graphics>
+            <att name="attrs" value="characteristics,nInstances,warning"/>
+            <att name="meths" value="__del__,__init__"/>
+
+            <att name="width" value="160"/>
+            <att name="height" value="134"/>
+        </node>
+        <node id="Food" label="Food&#xa;⎯⎯⎯&#xa;nInstances&#xa;nutritionalProperties&#xa;warning&#xa;⎯⎯⎯&#xa;__del__&#xa;__init__" weight="0">
+            <graphics type="ROUND_RECTANGLE" x="130.0" y="687.0" h="170" w="167" fill="#91CFEB" >
+                <att name="NODE_LABEL_POSITION" value="C,C,l,0.00,0.00" type="string" cy:type="String"/>
+                <att name="NODE_LABEL_FONT_SIZE" value="10" type="string" cy:type="String"/>
+            </graphics>
+            <att name="attrs" value="nInstances,nutritionalProperties,warning"/>
+            <att name="meths" value="__del__,__init__"/>
+
+            <att name="width" value="157"/>
+            <att name="height" value="134"/>
+        </node>
+        <node id="SafetyKitItemProperty" label="SafetyKitItemProperty&#xa;⎯⎯⎯&#xa;description&#xa;id&#xa;language&#xa;nInstances&#xa;name&#xa;⎯⎯⎯&#xa;__del__&#xa;__init__" weight="0">
+            <graphics type="ROUND_RECTANGLE" x="432.0" y="13.0" h="200" w="230" fill="#91CFEB" >
+                <att name="NODE_LABEL_POSITION" value="C,C,l,0.00,0.00" type="string" cy:type="String"/>
+                <att name="NODE_LABEL_FONT_SIZE" value="10" type="string" cy:type="String"/>
+            </graphics>
+            <att name="attrs" value="description,id,language,nInstances,name"/>
+            <att name="meths" value="__del__,__init__"/>
+
+            <att name="width" value="220"/>
+            <att name="height" value="164"/>
+        </node>
+        <node id="IllnessCategory" label="IllnessCategory&#xa;⎯⎯⎯&#xa;description&#xa;id&#xa;language&#xa;nInstances&#xa;name&#xa;⎯⎯⎯&#xa;__del__&#xa;__init__" weight="0">
+            <graphics type="ROUND_RECTANGLE" x="262" y="424" h="200" w="170" fill="#91CFEB" >
+                <att name="NODE_LABEL_POSITION" value="C,C,l,0.00,0.00" type="string" cy:type="String"/>
+                <att name="NODE_LABEL_FONT_SIZE" value="10" type="string" cy:type="String"/>
+            </graphics>
+            <att name="attrs" value="description,id,language,nInstances,name"/>
+            <att name="meths" value="__del__,__init__"/>
+
+            <att name="width" value="160"/>
+            <att name="height" value="164"/>
+        </node>
+        <node id="IllnessProperty" label="IllnessProperty&#xa;⎯⎯⎯&#xa;description&#xa;id&#xa;illnessCategory&#xa;language&#xa;nInstances&#xa;name&#xa;⎯⎯⎯&#xa;__del__&#xa;__init__" weight="0">
+            <graphics type="ROUND_RECTANGLE" x="52" y="424" h="215" w="170" fill="#91CFEB" >
+                <att name="NODE_LABEL_POSITION" value="C,C,l,0.00,0.00" type="string" cy:type="String"/>
+                <att name="NODE_LABEL_FONT_SIZE" value="10" type="string" cy:type="String"/>
+            </graphics>
+            <att name="attrs" value="description,id,illnessCategory,language,nInstances,name"/>
+            <att name="meths" value="__del__,__init__"/>
+
+            <att name="width" value="160"/>
+            <att name="height" value="179"/>
+        </node>
+        <node id="SafetyKitItemInstruction" label="SafetyKitItemInstruction&#xa;⎯⎯⎯&#xa;description&#xa;id&#xa;illnesses&#xa;incompatibilities&#xa;language&#xa;maxdosage&#xa;mindosage&#xa;nInstances&#xa;name&#xa;posology&#xa;references&#xa;⎯⎯⎯&#xa;__del__&#xa;__init__" weight="0">
+            <graphics type="ROUND_RECTANGLE" x="452.0" y="206.0" h="290" w="260" fill="#91CFEB" >
+                <att name="NODE_LABEL_POSITION" value="C,C,l,0.00,0.00" type="string" cy:type="String"/>
+                <att name="NODE_LABEL_FONT_SIZE" value="10" type="string" cy:type="String"/>
+            </graphics>
+            <att name="attrs" value="description,id,illnesses,incompatibilities,language,maxdosage,mindosage,nInstances,name,posology,references"/>
+            <att name="meths" value="__del__,__init__"/>
+
+            <att name="width" value="250"/>
+            <att name="height" value="254"/>
+        </node>
+        <node id="SafetyKitInstructions" label="SafetyKitInstructions&#xa;⎯⎯⎯&#xa;description&#xa;id&#xa;language&#xa;nInstances&#xa;name&#xa;safetyKitItemInstructions&#xa;⎯⎯⎯&#xa;__del__&#xa;__init__" weight="0">
+            <graphics type="ROUND_RECTANGLE" x="716" y="757" h="215" w="230" fill="#91CFEB" >
+                <att name="NODE_LABEL_POSITION" value="C,C,l,0.00,0.00" type="string" cy:type="String"/>
+                <att name="NODE_LABEL_FONT_SIZE" value="10" type="string" cy:type="String"/>
+            </graphics>
+            <att name="attrs" value="description,id,language,nInstances,name,safetyKitItemInstructions"/>
+            <att name="meths" value="__del__,__init__"/>
+
+            <att name="width" value="220"/>
+            <att name="height" value="179"/>
+        </node>
+        <node id="SafetyKitTypeSpecification" label="SafetyKitTypeSpecification&#xa;⎯⎯⎯&#xa;avgCost&#xa;avgWeight&#xa;description&#xa;id&#xa;itemTypesPercentages&#xa;nInstances&#xa;name&#xa;⎯⎯⎯&#xa;__del__&#xa;__init__" weight="0">
+            <graphics type="ROUND_RECTANGLE" x="1065.0" y="21.0" h="230" w="280" fill="#91CFEB" >
+                <att name="NODE_LABEL_POSITION" value="C,C,l,0.00,0.00" type="string" cy:type="String"/>
+                <att name="NODE_LABEL_FONT_SIZE" value="10" type="string" cy:type="String"/>
+            </graphics>
+            <att name="attrs" value="avgCost,avgWeight,description,id,itemTypesPercentages,nInstances,name"/>
+            <att name="meths" value="__del__,__init__"/>
+
+            <att name="width" value="270"/>
+            <att name="height" value="194"/>
+        </node>
+        <node id="SafetyKitType" label="SafetyKitType&#xa;⎯⎯⎯&#xa;description&#xa;id&#xa;nInstances&#xa;name&#xa;safetyKitTypeSpecification&#xa;⎯⎯⎯&#xa;__del__&#xa;__init__" weight="0">
+            <graphics type="ROUND_RECTANGLE" x="807.0" y="51.0" h="200" w="202" fill="#91CFEB" >
+                <att name="NODE_LABEL_POSITION" value="C,C,l,0.00,0.00" type="string" cy:type="String"/>
+                <att name="NODE_LABEL_FONT_SIZE" value="10" type="string" cy:type="String"/>
+            </graphics>
+            <att name="attrs" value="description,id,nInstances,name,safetyKitTypeSpecification"/>
+            <att name="meths" value="__del__,__init__"/>
+
+            <att name="width" value="192"/>
+            <att name="height" value="164"/>
+        </node>
+        <node id="SafetyKit" label="SafetyKit&#xa;⎯⎯⎯&#xa;description&#xa;id&#xa;nInstances&#xa;name&#xa;safetyKitInstructions&#xa;safetyKitItems&#xa;safetyKitType&#xa;⎯⎯⎯&#xa;__del__&#xa;__init__" weight="0">
+            <graphics type="ROUND_RECTANGLE" x="509" y="528" h="230" w="167" fill="#91CFEB" >
+                <att name="NODE_LABEL_POSITION" value="C,C,l,0.00,0.00" type="string" cy:type="String"/>
+                <att name="NODE_LABEL_FONT_SIZE" value="10" type="string" cy:type="String"/>
+            </graphics>
+            <att name="attrs" value="description,id,nInstances,name,safetyKitInstructions,safetyKitItems,safetyKitType"/>
+            <att name="meths" value="__del__,__init__"/>
+
+            <att name="width" value="157"/>
+            <att name="height" value="194"/>
+        </node>
+        <node id="Pack" label="Pack&#xa;⎯⎯⎯&#xa;description&#xa;id&#xa;nInstances&#xa;name&#xa;volume&#xa;weight&#xa;⎯⎯⎯&#xa;__del__&#xa;__init__" weight="0">
+            <graphics type="ROUND_RECTANGLE" x="947.0" y="267.0" h="215" w="97" fill="#91CFEB" >
+                <att name="NODE_LABEL_POSITION" value="C,C,l,0.00,0.00" type="string" cy:type="String"/>
+                <att name="NODE_LABEL_FONT_SIZE" value="10" type="string" cy:type="String"/>
+            </graphics>
+            <att name="attrs" value="description,id,nInstances,name,volume,weight"/>
+            <att name="meths" value="__del__,__init__"/>
+
+            <att name="width" value="87"/>
+            <att name="height" value="179"/>
+        </node>
+        <node id="SafetyKitPackCategory" label="SafetyKitPackCategory&#xa;⎯⎯⎯&#xa;characteristics&#xa;id&#xa;nInstances&#xa;name&#xa;packSubcategory&#xa;⎯⎯⎯&#xa;__del__&#xa;__init__" weight="0">
+            <graphics type="ROUND_RECTANGLE" x="718.0" y="524.0" h="200" w="230" fill="#91CFEB" >
+                <att name="NODE_LABEL_POSITION" value="C,C,l,0.00,0.00" type="string" cy:type="String"/>
+                <att name="NODE_LABEL_FONT_SIZE" value="10" type="string" cy:type="String"/>
+            </graphics>
+            <att name="attrs" value="characteristics,id,nInstances,name,packSubcategory"/>
+            <att name="meths" value="__del__,__init__"/>
+
+            <att name="width" value="220"/>
+            <att name="height" value="164"/>
+        </node>
+        <node id="SafetyKitPack" label="SafetyKitPack&#xa;⎯⎯⎯&#xa;nInstances&#xa;safetyKitPackCategory&#xa;safetyKits&#xa;⎯⎯⎯&#xa;__del__&#xa;__init__" weight="0">
+            <graphics type="ROUND_RECTANGLE" x="994.0" y="561.0" h="170" w="167" fill="#91CFEB" >
+                <att name="NODE_LABEL_POSITION" value="C,C,l,0.00,0.00" type="string" cy:type="String"/>
+                <att name="NODE_LABEL_FONT_SIZE" value="10" type="string" cy:type="String"/>
+            </graphics>
+            <att name="attrs" value="nInstances,safetyKitPackCategory,safetyKits"/>
+            <att name="meths" value="__del__,__init__"/>
+
+            <att name="width" value="157"/>
+            <att name="height" value="134"/>
+        </node>
+        <node id="Inventory" label="Inventory&#xa;⎯⎯⎯&#xa;characteristics&#xa;description&#xa;hangar&#xa;id&#xa;nInstances&#xa;name&#xa;type&#xa;⎯⎯⎯&#xa;__del__&#xa;__init__" weight="0">
+            <graphics type="ROUND_RECTANGLE" x="1487.0" y="312.0" h="230" w="125" fill="#91CFEB" >
+                <att name="NODE_LABEL_POSITION" value="C,C,l,0.00,0.00" type="string" cy:type="String"/>
+                <att name="NODE_LABEL_FONT_SIZE" value="10" type="string" cy:type="String"/>
+            </graphics>
+            <att name="attrs" value="characteristics,description,hangar,id,nInstances,name,type"/>
+            <att name="meths" value="__del__,__init__"/>
+
+            <att name="width" value="115"/>
+            <att name="height" value="194"/>
+        </node>
+        <node id="Hangar" label="Hangar&#xa;⎯⎯⎯&#xa;characteristics&#xa;city&#xa;description&#xa;id&#xa;inventory&#xa;latitude&#xa;longitude&#xa;nInstances&#xa;name&#xa;priority&#xa;safetyKitPacks&#xa;totalCapacity&#xa;⎯⎯⎯&#xa;__del__&#xa;__init__" weight="0">
+            <graphics type="ROUND_RECTANGLE" x="1181" y="309" h="305" w="125" fill="#91CFEB" >
+                <att name="NODE_LABEL_POSITION" value="C,C,l,0.00,0.00" type="string" cy:type="String"/>
+                <att name="NODE_LABEL_FONT_SIZE" value="10" type="string" cy:type="String"/>
+            </graphics>
+            <att name="attrs" value="characteristics,city,description,id,inventory,latitude,longitude,nInstances,name,priority,safetyKitPacks,totalCapacity"/>
+            <att name="meths" value="__del__,__init__"/>
+
+            <att name="width" value="115"/>
+            <att name="height" value="269"/>
+        </node>
+
+        <edge source="Food" target="SafetyKitItem" type="last" weight="0" label="Edge from Food to SafetyKitItem">
+            <graphics width="2.0" fill="#848484">
+                <att name="EDGE_LINE_TYPE" value="SOLID" type="string" cy:type="String"/>
+                <att name="EDGE_SOURCE_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
+                <att name="EDGE_TARGET_ARROW_SHAPE" value="OPEN_DELTA" type="string" cy:type="String"/>
+            </graphics>
+        </edge>
+        <edge source="SafetyKitPack" target="Pack" type="last" weight="0" label="Edge from SafetyKitPack to Pack">
+            <graphics width="2.0" fill="#848484">
+                <att name="EDGE_LINE_TYPE" value="SOLID" type="string" cy:type="String"/>
+                <att name="EDGE_SOURCE_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
+                <att name="EDGE_TARGET_ARROW_SHAPE" value="OPEN_DELTA" type="string" cy:type="String"/>
+            </graphics>
+        </edge>
+        <edge source="Medicine" target="SafetyKitItem" type="last" weight="0" label="Edge from Medicine to SafetyKitItem">
+            <graphics width="2.0" fill="#848484">
+                <att name="EDGE_LINE_TYPE" value="SOLID" type="string" cy:type="String"/>
+                <att name="EDGE_SOURCE_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
+                <att name="EDGE_TARGET_ARROW_SHAPE" value="OPEN_DELTA" type="string" cy:type="String"/>
+            </graphics>
+        </edge>
+        <edge source="MedicalHardware" target="SafetyKitItem" type="last" weight="0" label="Edge from MedicalHardware to SafetyKitItem">
+            <graphics width="2.0" fill="#848484">
+                <att name="EDGE_LINE_TYPE" value="SOLID" type="string" cy:type="String"/>
+                <att name="EDGE_SOURCE_ARROW_SHAPE" value="NONE" type="string" cy:type="String"/>
+                <att name="EDGE_TARGET_ARROW_SHAPE" value="OPEN_DELTA" type="string" cy:type="String"/>
+            </graphics>
+        </edge>
+        <edge source="SafetyKitPackCategory" target="SafetyKitPack" type="last" weight="0" label="Edge from SafetyKitPackCategory to SafetyKitPack">
+            <graphics width="2.0" fill="#848484">
+                <att name="EDGE_LINE_TYPE" value="SOLID" type="string" cy:type="String"/>
+                <att name="EDGE_SOURCE_ARROW_SHAPE" value="ARROW" type="string" cy:type="String"/>
+                <att name="EDGE_TARGET_ARROW_SHAPE" value="OPEN_DIAMOND" type="string" cy:type="String"/>
+            </graphics>
+        </edge>
+        <edge source="SafetyKitTypeSpecification" target="SafetyKitType" type="last" weight="0" label="Edge from SafetyKitTypeSpecification to SafetyKitType">
+            <graphics width="2.0" fill="#848484">
+                <att name="EDGE_LINE_TYPE" value="SOLID" type="string" cy:type="String"/>
+                <att name="EDGE_SOURCE_ARROW_SHAPE" value="ARROW" type="string" cy:type="String"/>
+                <att name="EDGE_TARGET_ARROW_SHAPE" value="OPEN_DIAMOND" type="string" cy:type="String"/>
+            </graphics>
+        </edge>
+        <edge source="SafetyKitPackCategory" target="SafetyKitPackCategory" type="last" weight="0" label="Edge from SafetyKitPackCategory to SafetyKitPackCategory">
+            <graphics width="2.0" fill="#848484">
+                <att name="EDGE_LINE_TYPE" value="SOLID" type="string" cy:type="String"/>
+                <att name="EDGE_SOURCE_ARROW_SHAPE" value="ARROW" type="string" cy:type="String"/>
+                <att name="EDGE_TARGET_ARROW_SHAPE" value="OPEN_DIAMOND" type="string" cy:type="String"/>
+            </graphics>
+        </edge>
+        <edge source="SafetyKitInstructions" target="SafetyKit" type="last" weight="0" label="Edge from SafetyKitInstructions to SafetyKit">
+            <graphics width="2.0" fill="#848484">
+                <att name="EDGE_LINE_TYPE" value="SOLID" type="string" cy:type="String"/>
+                <att name="EDGE_SOURCE_ARROW_SHAPE" value="ARROW" type="string" cy:type="String"/>
+                <att name="EDGE_TARGET_ARROW_SHAPE" value="OPEN_DIAMOND" type="string" cy:type="String"/>
+            </graphics>
+        </edge>
+        <edge source="SafetyKitItemType" target="Food" type="last" weight="0" label="Edge from SafetyKitItemType to Food">
+            <graphics width="2.0" fill="#848484">
+                <att name="EDGE_LINE_TYPE" value="SOLID" type="string" cy:type="String"/>
+                <att name="EDGE_SOURCE_ARROW_SHAPE" value="ARROW" type="string" cy:type="String"/>
+                <att name="EDGE_TARGET_ARROW_SHAPE" value="OPEN_DIAMOND" type="string" cy:type="String"/>
+            </graphics>
+        </edge>
+        <edge source="IllnessCategory" target="IllnessProperty" type="last" weight="0" label="Edge from IllnessCategory to IllnessProperty">
+            <graphics width="2.0" fill="#848484">
+                <att name="EDGE_LINE_TYPE" value="SOLID" type="string" cy:type="String"/>
+                <att name="EDGE_SOURCE_ARROW_SHAPE" value="ARROW" type="string" cy:type="String"/>
+                <att name="EDGE_TARGET_ARROW_SHAPE" value="OPEN_DIAMOND" type="string" cy:type="String"/>
+            </graphics>
+        </edge>
+        <edge source="SafetyKitType" target="SafetyKit" type="last" weight="0" label="Edge from SafetyKitType to SafetyKit">
+            <graphics width="2.0" fill="#848484">
+                <att name="EDGE_LINE_TYPE" value="SOLID" type="string" cy:type="String"/>
+                <att name="EDGE_SOURCE_ARROW_SHAPE" value="ARROW" type="string" cy:type="String"/>
+                <att name="EDGE_TARGET_ARROW_SHAPE" value="OPEN_DIAMOND" type="string" cy:type="String"/>
+            </graphics>
+        </edge>
+        <edge source="SafetyKitItemType" target="MedicalHardware" type="last" weight="0" label="Edge from SafetyKitItemType to MedicalHardware">
+            <graphics width="2.0" fill="#848484">
+                <att name="EDGE_LINE_TYPE" value="SOLID" type="string" cy:type="String"/>
+                <att name="EDGE_SOURCE_ARROW_SHAPE" value="ARROW" type="string" cy:type="String"/>
+                <att name="EDGE_TARGET_ARROW_SHAPE" value="OPEN_DIAMOND" type="string" cy:type="String"/>
+            </graphics>
+        </edge>
+        <edge source="SafetyKitItemProperty" target="SafetyKitItemInstruction" type="last" weight="0" label="Edge from SafetyKitItemProperty to SafetyKitItemInstruction">
+            <graphics width="2.0" fill="#848484">
+                <att name="EDGE_LINE_TYPE" value="SOLID" type="string" cy:type="String"/>
+                <att name="EDGE_SOURCE_ARROW_SHAPE" value="ARROW" type="string" cy:type="String"/>
+                <att name="EDGE_TARGET_ARROW_SHAPE" value="OPEN_DIAMOND" type="string" cy:type="String"/>
+            </graphics>
+        </edge>
+        <edge source="Inventory" target="Hangar" type="last" weight="0" label="Edge from Inventory to Hangar">
+            <graphics width="2.0" fill="#848484">
+                <att name="EDGE_LINE_TYPE" value="SOLID" type="string" cy:type="String"/>
+                <att name="EDGE_SOURCE_ARROW_SHAPE" value="ARROW" type="string" cy:type="String"/>
+                <att name="EDGE_TARGET_ARROW_SHAPE" value="OPEN_DIAMOND" type="string" cy:type="String"/>
+            </graphics>
+        </edge>
+        <edge source="Hangar" target="Inventory" type="last" weight="0" label="Edge from Hangar to Inventory">
+            <graphics width="2.0" fill="#848484">
+                <att name="EDGE_LINE_TYPE" value="SOLID" type="string" cy:type="String"/>
+                <att name="EDGE_SOURCE_ARROW_SHAPE" value="ARROW" type="string" cy:type="String"/>
+                <att name="EDGE_TARGET_ARROW_SHAPE" value="OPEN_DIAMOND" type="string" cy:type="String"/>
+            </graphics>
+        </edge>
+        <edge source="SafetyKitItemType" target="Medicine" type="last" weight="0" label="Edge from SafetyKitItemType to Medicine">
+            <graphics width="2.0" fill="#848484">
+                <att name="EDGE_LINE_TYPE" value="SOLID" type="string" cy:type="String"/>
+                <att name="EDGE_SOURCE_ARROW_SHAPE" value="ARROW" type="string" cy:type="String"/>
+                <att name="EDGE_TARGET_ARROW_SHAPE" value="OPEN_DIAMOND" type="string" cy:type="String"/>
+            </graphics>
+        </edge>
+        <edge source="SafetyKitItemType" target="SafetyKitItem" type="last" weight="0" label="Edge from SafetyKitItemType to SafetyKitItem">
+            <graphics width="2.0" fill="#848484">
+                <att name="EDGE_LINE_TYPE" value="SOLID" type="string" cy:type="String"/>
+                <att name="EDGE_SOURCE_ARROW_SHAPE" value="ARROW" type="string" cy:type="String"/>
+                <att name="EDGE_TARGET_ARROW_SHAPE" value="OPEN_DIAMOND" type="string" cy:type="String"/>
+            </graphics>
+        </edge>
+    </graph>        

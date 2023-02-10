@@ -1,0 +1,73 @@
+name: safety-delivery-system
+keywords:
+description:
+(Part 1)
+We have to asseble  SafetyKits elements that are composed of SafetyKitItems these Items can be:
+ a) Medicine (anti-biotics, aspirine) 
+ or b) MedicalHardware (plaster, tape, cotton, injections)
+ or c) Food (cans, milk...)
+ 
+A SafetyKit will also contain SafetyKitInstructions this book will be composed of SafetyKitItemInstruction elements
+SafetyKits will be of a SafetyKitType
+SafetyKits will be stored into SafetyKitPacks that will have a SafetyKitPackCategory
+
+(Part 2)
+
+We will work with Persons that can be: Volontaries or Employees, both will have a responsible that must
+be an Employee, an Employee (simplicity) works for a Department of a Company and works (in a?) Operations
+A Volontary collaborates (in an?) Operation
+
+We will work with OperationsGroup that will be composed of Operations
+
+We will work with Organisation that will work with Companies that will have Departments these Departments
+ will have Employees and a responsible Employee of the Department
+An Organisation will launch many OperationsGroups integrated in Projects (Missions)
+
+classes (part 1):
+
+1- SafetyKitTypeSpecification
+
+2-SafetyKitType:
+
+3-SafetyKit:
+
+4-SafetyKitItem:
+
+5-Medicine:
+
+6-MedicalHardware:
+
+7-Food:
+
+8-SafetyKitInstructions:
+
+9-SafetyKitItemInstruction:
+
+10-SafetyKitItemProperty:
+
+11-IllnessProperty:
+
+12-IllnessCategory:
+
+13- Pack: (Abstract)
+
+14- SafetyKitPack:
+
+15- SafetyKitPackCategory:
+
+
+classes (part 2):
+
+16- Person
+17- Voluntary
+18- Employee
+19- Organisation
+20- Company
+21- Department
+22- Facility: (Abstract)
+23- Hangar:
+24- Inventory:
+25- Operation:
+26- OperationsGroup
+27- Project (Mission)
+
